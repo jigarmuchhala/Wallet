@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_repay_wallet_domain_TxnType" object="${txntype}" path="/txntypes" z="qVit6MPU+JTqk+koGdeEsG1Wfcc=">
+        <field:display field="txnTypeId" id="s_com_repay_wallet_domain_TxnType_txnTypeId" object="${txntype}" z="xYdHciQUZSa4XsaZ1AWsQl89odA="/>
+        <field:display field="txnTypeName" id="s_com_repay_wallet_domain_TxnType_txnTypeName" object="${txntype}" z="LKf3AuHkyoydMcLf7Vh/WAaO878="/>
+    </page:show>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_repay_wallet_domain_Txn" items="${txns}" z="OBCnrPuJqhiSuq8Ei13I4fu38yo=">
+        <table:table data="${txns}" id="l_com_repay_wallet_domain_Txn" path="/txns" z="FJLl/SlWG0hM+k2gkbKZlyQ+y28=">
+            <table:column id="c_com_repay_wallet_domain_Txn_userId" property="userId" z="GgPzgJfuuoJj7AxRuTVVElWOPkQ="/>
+            <table:column id="c_com_repay_wallet_domain_Txn_walletId" property="walletId" z="NgVoSUV9zLM4J9N9HedfChgFTB4="/>
+            <table:column id="c_com_repay_wallet_domain_Txn_txnTypeId" property="txnTypeId" z="1jGFwb4nUsjgps+WDg0N+14Z/xI="/>
+            <table:column id="c_com_repay_wallet_domain_Txn_txnId" property="txnId" z="lvQybY1H3PxcR5SARh5lYbx07Bo="/>
+            <table:column id="c_com_repay_wallet_domain_Txn_senderAccountNumber" property="senderAccountNumber" z="BycEl1Bi3N68V2B6BpXwFR55faw="/>
+            <table:column id="c_com_repay_wallet_domain_Txn_receiverAccountNumber" property="receiverAccountNumber" z="WoZo0D6cAjvhO3I08qZG6+AqOdc="/>
+        </table:table>
+    </page:list>
+</div>
