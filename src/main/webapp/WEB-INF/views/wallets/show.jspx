@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_repay_wallet_domain_Wallet" object="${wallet}" path="/wallets" z="IssmmfEnnjY/PY3BAbqFBTfTlG0=">
+        <field:display field="walletId" id="s_com_repay_wallet_domain_Wallet_walletId" object="${wallet}" z="MYPs1gWbi0GBpKrnOIsWSsNNIjo="/>
+        <field:display field="userId" id="s_com_repay_wallet_domain_Wallet_userId" object="${wallet}" z="SKGZuITVhh1skaZi2VuY91i8C20="/>
+        <field:display field="walletTypeId" id="s_com_repay_wallet_domain_Wallet_walletTypeId" object="${wallet}" z="r0tO0JE9NYt1S5c8ptaInf5+sJE="/>
+        <field:display field="currency" id="s_com_repay_wallet_domain_Wallet_currency" object="${wallet}" z="HHPhfI7hFloObeSAqM8SkN1LQ08="/>
+        <field:display field="balance" id="s_com_repay_wallet_domain_Wallet_balance" object="${wallet}" z="9OID6ZCElC0wdgZY8Qr8cksjS8E="/>
+        <field:display field="isActive" id="s_com_repay_wallet_domain_Wallet_isActive" object="${wallet}" z="sIl0QiTXmArc5gFSX2c2+qQ/a7o="/>
+        <field:display field="createdBy" id="s_com_repay_wallet_domain_Wallet_createdBy" object="${wallet}" z="f+uMeumdoYLLFBSnegWuaAF8ScI="/>
+        <field:display date="true" dateTimePattern="${wallet_createdon_date_format}" field="createdOn" id="s_com_repay_wallet_domain_Wallet_createdOn" object="${wallet}" z="U7IPjFDV+1UguZ7f/FrPH5nBRPQ="/>
+        <field:display field="modifiedBy" id="s_com_repay_wallet_domain_Wallet_modifiedBy" object="${wallet}" z="so+fu/EquHXP8YxPz9xKSK8H92E="/>
+        <field:display date="true" dateTimePattern="${wallet_modifiedon_date_format}" field="modifiedOn" id="s_com_repay_wallet_domain_Wallet_modifiedOn" object="${wallet}" z="CmWTECfeGUQc77zAophMK5/o1jk="/>
+    </page:show>
+</div>
