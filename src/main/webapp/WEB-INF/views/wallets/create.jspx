@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_repay_wallet_domain_Wallet" modelAttribute="wallet" path="/wallets" render="${empty dependencies}" z="Z1dxbFVDkP7TwjF8DpjftklrHCE=">
+        <field:input field="walletId" id="c_com_repay_wallet_domain_Wallet_walletId" required="true" z="noCeGd59Phuo6eRoNaSWZhVNwOw="/>
+        <field:select field="userId" id="c_com_repay_wallet_domain_Wallet_userId" itemValue="id" items="${userdtlses}" path="/userdtlses" z="EMtFVwhkOi8RSrpuPBDjuoLaKwU="/>
+        <field:select field="walletTypeId" id="c_com_repay_wallet_domain_Wallet_walletTypeId" itemValue="id" items="${wallettypes}" path="/wallettypes" z="ty8D8XSdhMnVsauJrzfb67+o0tY="/>
+        <field:input field="currency" id="c_com_repay_wallet_domain_Wallet_currency" z="44hzOAsZMWndagBZa9ImRc5Lsdk="/>
+        <field:input field="balance" id="c_com_repay_wallet_domain_Wallet_balance" validationMessageCode="field_invalid_number" z="9iklDI7XgjRw4SwF5qVp5zoHXGs="/>
+        <field:checkbox field="isActive" id="c_com_repay_wallet_domain_Wallet_isActive" z="kchpV+gemJ5YbO+AhczgT35fbic="/>
+        <field:input field="createdBy" id="c_com_repay_wallet_domain_Wallet_createdBy" z="4MFDOGwWVObyNm26qEf3TDezMhE="/>
+        <field:datetime dateTimePattern="${wallet_createdon_date_format}" field="createdOn" id="c_com_repay_wallet_domain_Wallet_createdOn" z="pGDUILzH5KyUeNLOnwKHRXMoLnE="/>
+        <field:input field="modifiedBy" id="c_com_repay_wallet_domain_Wallet_modifiedBy" z="XoczV6PerM7OxmnZmtjKfTKO5NM="/>
+        <field:datetime dateTimePattern="${wallet_modifiedon_date_format}" field="modifiedOn" id="c_com_repay_wallet_domain_Wallet_modifiedOn" z="w4NpjQCW3ZuOcjk+cwnlScxAC0w="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_repay_wallet_domain_Wallet" render="${not empty dependencies}" z="UlnPRmeC6Lk6/T+99JCJceBs/tQ="/>
+</div>

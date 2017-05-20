@@ -1,0 +1,36 @@
+<aspectj>
+<aspects>
+<aspect name="com.repay.wallet.domain.UserDtls_Roo_JavaBean"/>
+<aspect name="com.repay.wallet.domain.WalletType_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.repay.wallet.domain.TxnController_Roo_Controller"/>
+<aspect name="com.repay.wallet.domain.TxnType_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.WalletTypeController_Roo_Controller"/>
+<aspect name="com.repay.wallet.domain.Txn_Roo_JavaBean"/>
+<aspect name="com.repay.wallet.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.repay.wallet.domain.TxnType_Roo_ToString"/>
+<aspect name="com.repay.wallet.domain.TxnType_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.repay.wallet.domain.UserDtls_Roo_Jpa_Entity"/>
+<aspect name="com.repay.wallet.domain.WalletType_Roo_Configurable"/>
+<aspect name="com.repay.wallet.web.UserDtlsController_Roo_Controller"/>
+<aspect name="com.repay.wallet.domain.Wallet_Roo_ToString"/>
+<aspect name="com.repay.wallet.domain.WalletType_Roo_ToString"/>
+<aspect name="com.repay.wallet.domain.TxnTypeController_Roo_Controller"/>
+<aspect name="com.repay.wallet.domain.Txn_Roo_Jpa_Entity"/>
+<aspect name="com.repay.wallet.domain.Wallet_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.repay.wallet.domain.WalletType_Roo_Jpa_Entity"/>
+<aspect name="com.repay.wallet.domain.TxnType_Roo_JavaBean"/>
+<aspect name="com.repay.wallet.domain.Wallet_Roo_Jpa_Entity"/>
+<aspect name="com.repay.wallet.domain.UserDtls_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.repay.wallet.domain.Txn_Roo_ToString"/>
+<aspect name="com.repay.wallet.domain.Wallet_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.TxnType_Roo_Jpa_Entity"/>
+<aspect name="com.repay.wallet.domain.UserDtls_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.WalletController_Roo_Controller"/>
+<aspect name="com.repay.wallet.domain.Txn_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.UserDtls_Roo_ToString"/>
+<aspect name="com.repay.wallet.domain.Wallet_Roo_JavaBean"/>
+<aspect name="com.repay.wallet.domain.Txn_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.repay.wallet.domain.WalletType_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+

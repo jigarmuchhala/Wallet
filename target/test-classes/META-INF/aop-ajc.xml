@@ -1,0 +1,25 @@
+<aspectj>
+<aspects>
+<aspect name="com.repay.wallet.domain.TxnDataOnDemand_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.TxnTypeIntegrationTest_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.WalletIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.repay.wallet.domain.UserDtlsDataOnDemand_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.TxnTypeIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.repay.wallet.domain.UserDtlsDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.repay.wallet.domain.UserDtlsIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.repay.wallet.domain.TxnIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.repay.wallet.domain.WalletTypeDataOnDemand_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.WalletDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.repay.wallet.domain.TxnTypeDataOnDemand_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.TxnTypeDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.repay.wallet.domain.WalletTypeIntegrationTest_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.WalletDataOnDemand_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.TxnIntegrationTest_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.WalletTypeIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.repay.wallet.domain.UserDtlsIntegrationTest_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.WalletIntegrationTest_Roo_Configurable"/>
+<aspect name="com.repay.wallet.domain.TxnDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.repay.wallet.domain.WalletTypeDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_repay_wallet_domain_Txn" modelAttribute="txn" path="/txns" versionField="Version" z="OCU0siGkQ9INibKgu8oh3SrVUms=">
+        <field:select field="userId" id="c_com_repay_wallet_domain_Txn_userId" itemValue="id" items="${userdtlses}" path="/userdtlses" z="a0jlQPsf1RYHvpVega9UTWd8rcw="/>
+        <field:select field="walletId" id="c_com_repay_wallet_domain_Txn_walletId" itemValue="id" items="${wallets}" path="/wallets" z="i4MN1lifNEk3SGQrfI7rNbkD9xw="/>
+        <field:select field="txnTypeId" id="c_com_repay_wallet_domain_Txn_txnTypeId" itemValue="id" items="${txntypes}" path="/txntypes" z="oLCJsUnZKWo92dWJlrw64DgN+o4="/>
+        <field:input field="txnId" id="c_com_repay_wallet_domain_Txn_txnId" required="true" z="Il2ZFU7m8AnRZGg6Qe9wRVoqfrc="/>
+        <field:input field="senderAccountNumber" id="c_com_repay_wallet_domain_Txn_senderAccountNumber" z="zvSuro78EkxidYvKzojx3IYp20w="/>
+        <field:input field="receiverAccountNumber" id="c_com_repay_wallet_domain_Txn_receiverAccountNumber" z="Nc9nomYo79/yqLBIlKjRbcJT5yg="/>
+        <field:input field="currency" id="c_com_repay_wallet_domain_Txn_currency" z="YyFzznYGS5GQsvZH0GeowHfUcFM="/>
+        <field:input field="details" id="c_com_repay_wallet_domain_Txn_details" z="tlyo7TmfFyGp8nBPzbm/16AjBqI="/>
+        <field:input field="txnAmount" id="c_com_repay_wallet_domain_Txn_txnAmount" validationMessageCode="field_invalid_number" z="9RbEmKIxV3jE9xwB5lVtICDHQTw="/>
+        <field:input field="taxValue" id="c_com_repay_wallet_domain_Txn_taxValue" validationMessageCode="field_invalid_number" z="qbPjOILfzR18oHwLOe2jb3HJq4Q="/>
+        <field:input field="taxAmount" id="c_com_repay_wallet_domain_Txn_taxAmount" validationMessageCode="field_invalid_number" z="gywzQiOkR3IpM7Q6lrZK93AzOc4="/>
+        <field:input field="taxCurrency" id="c_com_repay_wallet_domain_Txn_taxCurrency" z="LxWUnQHW5KF8RuS2oHCjDmsvRuA="/>
+        <field:input field="status" id="c_com_repay_wallet_domain_Txn_status" z="NZl53B2v1hDdNIV6OqALw4geed8="/>
+        <field:input field="createdBy" id="c_com_repay_wallet_domain_Txn_createdBy" z="nYXkyBktKyrjo14c5lHxwU8HLe0="/>
+        <field:input field="modifieldBy" id="c_com_repay_wallet_domain_Txn_modifieldBy" z="HUTXtQjBB2/7+dBI9I+GnhQ2m3M="/>
+        <field:datetime dateTimePattern="${txn_createdon_date_format}" field="createdOn" id="c_com_repay_wallet_domain_Txn_createdOn" z="CdCRdYyTBuuTZMj3xhXRGE6T5SU="/>
+        <field:datetime dateTimePattern="${txn_modifiedon_date_format}" field="modifiedOn" id="c_com_repay_wallet_domain_Txn_modifiedOn" z="Xpvl8a4Z4mfDn5GZSdDCeYfag0Q="/>
+        <field:input field="comments" id="c_com_repay_wallet_domain_Txn_comments" z="noPBtW+McSAIyo+1e6qcC5Z4kLU="/>
+    </form:update>
+</div>

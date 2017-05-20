@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_repay_wallet_domain_Wallet" items="${wallets}" z="v3iUSjKN++lMTf5Pjii247rKsko=">
+        <table:table data="${wallets}" id="l_com_repay_wallet_domain_Wallet" path="/wallets" z="JCk9zVup07WADcAUNZcBi0zc2Lc=">
+            <table:column id="c_com_repay_wallet_domain_Wallet_walletId" property="walletId" z="oLs9R6QuB1LcjHontiwwzoLpS10="/>
+            <table:column id="c_com_repay_wallet_domain_Wallet_userId" property="userId" z="zhhm0a0Qf5VtDdCOQLoCxBpLKtw="/>
+            <table:column id="c_com_repay_wallet_domain_Wallet_walletTypeId" property="walletTypeId" z="ZXomNERe0Zqb7wtR8g8PZlOTCqc="/>
+            <table:column id="c_com_repay_wallet_domain_Wallet_currency" property="currency" z="qb6KUnVCyRstYvY1HNstGmIr3d8="/>
+            <table:column id="c_com_repay_wallet_domain_Wallet_balance" property="balance" z="Wr02wAm2BOkK2jNr8QBidlmadX0="/>
+            <table:column id="c_com_repay_wallet_domain_Wallet_isActive" property="isActive" z="6p57JKYWc6J7eMUBOb1+JJ2ZMDw="/>
+        </table:table>
+    </page:list>
+</div>
