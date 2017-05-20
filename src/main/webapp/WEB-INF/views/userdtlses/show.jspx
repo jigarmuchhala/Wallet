@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
-    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
-    <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_com_repay_wallet_domain_UserDtls" object="${userdtls}" path="/userdtlses" z="g6QQbfXSpY5mX2IJ6ZOGDuT+Wws=">
-        <field:display field="userId" id="s_com_repay_wallet_domain_UserDtls_userId" object="${userdtls}" z="bjhjq97XdYngJNbM65y/TGNAyyI="/>
-        <field:display field="userName" id="s_com_repay_wallet_domain_UserDtls_userName" object="${userdtls}" z="4gPHK1vaKHelyHbTEHSh+KsmuTE="/>
-    </page:show>
-</div>

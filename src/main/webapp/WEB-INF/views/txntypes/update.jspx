@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
-    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
-    <jsp:output omit-xml-declaration="yes"/>
-    <form:update id="fu_com_repay_wallet_domain_TxnType" modelAttribute="txnType" path="/txntypes" versionField="Version" z="DqZobgqPrfOMHU2pDzHut2rCF4Q=">
-        <field:input field="txnTypeId" id="c_com_repay_wallet_domain_TxnType_txnTypeId" required="true" z="hSzxdlTv914Nwc0eoK5gGuSxlQQ="/>
-        <field:input field="txnTypeName" id="c_com_repay_wallet_domain_TxnType_txnTypeName" z="BOv17RZPsYUgpfymCh8wiNyxX7k="/>
-    </form:update>
-</div>
